@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>"Personality Match Quiz"</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:1px;">
+    <a class="w3-bar-item w3-button" href="https://kristinee.w3spaces.com/Capstone-websiteproject.html">Home</a>
+    
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <nav>
+    <div class="w3-right w3-hide-small">
+     <a class="w3-bar-item w3-button" target="_blank" rel="noopener noreferrer" href="https://kristinee.w3spaces.com/locations.html">Locations of Animal Shelters</a>
+      <a class="w3-bar-item w3-button" target="_blank" rel="noopener noreferrer" href="./Foster-or-adopt.html">Benefits of Fostering or Adopting </a>
+      <a class="w3-bar-item w3-button" target="_blank" rel="noopener noreferrer" href="./preparing-for-animal.html">Preparing for a New Animal</a>
+      <a class="w3-bar-item w3-button" target="_blank" rel="noopener noreferrer" href="./FAQs.html">FAQ's</a>
+      <a class="w3-bar-item w3-button" target="_blank" rel="noopener noreferrer" href="./quick-search.html">Quick Search</a>
+      <a class="w3-bar-item w3-button" target="_blank" rel="noopener noreferrer" href="./survey.html">Animal Survey</a>
+      <a class="w3-bar-item w3-button" target="_blank" rel="noopener noreferrer" href="./petfinder.html">Petfinder</a>
+      <a class="w3-bar-item w3-button" target="_blank" rel="noopener noreferrer" href="./creator.html">Creator</a>
+    </nav>
+    </div>
+  </div>
+</div>
+
+<!-- Survey Body -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Dog Survey
+	</title>
+
+	<style>
+
+		/* Styling the Body element i.e. Color,
+		Font, Alignment */
+		body {
+			background-color: #ffffff;
+			 font-family: "Playfair Display";
+  letter-spacing: 3px;
+			text-align: center;
+		}
+
+		/* Styling the Form (Color, Padding, Shadow) */
+		form {
+			background-color: #fff;
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+		}
+
+		/* Styling form-control Class */
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		/* Styling form-control Label */
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		/* Styling form-control input,
+		select, textarea */
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		/* Styling form-control Radio
+		button and Checkbox */
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+		/* Styling Button */
+		button {
+			background-color: #ffffff;
+			border: 0px solid #fff;
+			border-radius: 2px;
+			font-family: inherit;
+			font-size: 21px;
+			display: block;
+			width: 100%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Animal Survey Form</h1>
+
+	<!-- Create Form -->
+	<form id="form">
+
+		<!-- Details -->
+		<div class="form-control">
+			<label for="name" id="label-name">
+				Name
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="name"
+				placeholder="Enter your name" />
+		</div>
+
+		<div class="form-control">
+			<label for="email" id="label-email">
+				Email
+			</label>
+
+			<!-- Input Type Email-->
+			<input type="email"
+				id="email"
+				placeholder="Enter your email" />
+		</div>
+
+		<div class="form-control">
+			<label for="phone number" id="label-phone-number">
+				Phone Number
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="Phone Number"
+				placeholder="Enter your phone number" />
+		</div>
+
+		<div class="form-control">
+			<label for="role" id="label-role">
+				Which is your favorite animal/dog breed?
+			</label>
+			
+			<!-- Dropdown options -->
+			<select name="role" id="role">
+				<option value="labrador-retriever">Cat</option>
+				<option value="labrador-retriever">Bird</option>
+				<option value="labrador-retriever">Livestock</option>
+				<option value="labrador-retriever">Pitbull</option>
+				<option value="french-bulldog">Siberian Husky</option>
+				<option value="golden-retriever"> Rhodesian Ridgeback</option>
+        		<option value="german-shepherd">German Shepherd</option>
+				<option value="poodle">Queensland Heeler</option>
+				<option value="bulldog">Laborador Retriever</option>
+       			<option value="beagle">Boxer</option>
+				<option value="rottweiler">Rottweiler</option>
+				<option value="pointers">Chihuahua</option>
+      			<option value="dachshund">Chinese Sharpei</option>
+				<option value="labrador-retriever">No preference</option>  
+			</select>
+		</div>
+
+		<div class="form-control">
+			<label>
+				Would you adopt any of these animals?
+			</label>
+
+			<!-- Input Type Radio Button -->
+			<label for="recommed-1">
+				<input type="radio"
+					id="recommed-1"
+					name="recommed">  Yes</input>
+			</label>
+			<label for="recommed-2">
+				<input type="radio"
+					id="recommed-2"
+					name="recommed">  No</input>
+			</label>
+			<label for="recommed-3">
+				<input type="radio"
+					id="recommed-3"
+					name="recommed">  Maybe</input>
+			</label>
+		</div>
+
+		<div class="form-control">
+		
+			<label>Which animal(s) would you adopt?
+				<small>(Check all that apply)</small>
+			</label>
+			<!-- Input Type Checkbox -->
+			<label for="inp-1">
+				<input type="checkbox"
+					name="inp">  Labrador Retriever</input></label>
+			<label for="inp-2">
+				<input type="checkbox"
+					name="inp"> Pitbull Terrier</input></label>
+			<label for="inp-3">
+				<input type="checkbox"
+					name="inp"> Rhodesian Ridgeback</input></label>
+			<label for="inp-4">
+				<input type="checkbox"
+					name="inp">  German Shepherd</input></label>
+			<label for="inp-5">
+				<input type="checkbox"
+					name="inp">  Queensland Heeler</input></label>
+			<label for="inp-6">
+				<input type="checkbox"
+					name="inp">  Boxer</input></label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">  Chihuahua</input></label>
+			<label for="inp-8">
+				<input type="checkbox"
+					name="inp">  Rottweiler</input></label>
+			<label for="inp-9">
+				<input type="checkbox"
+					name="inp">  Chinese Sharpei</input></label>
+			<label for="inp-10">
+				<input type="checkbox"
+					name="inp">  Siberian Husky</input></label>
+			<label for="inp-11">
+				<input type="checkbox"
+					name="inp">  Cat</input></label>
+			<label for="inp-12">
+				<input type="checkbox"
+					name="inp">  Bird</input></label>
+			<label for="inp-13">
+				<input type="checkbox"
+					name="inp">  Livestock</input></label>
+		</div>
+
+
+		<!-- Multi-line Text Input Control -->
+		<a href="./thank-you.html">
+		<text="submit">
+		Submit
+		</a>
+	</form>
+	
+<script>
+  // Get the element by class name
+  var formControlDiv = document.getElementsByClassName("form-control")[0];
+
+  // Get the content of the element
+  var formControlContent = formControlDiv.innerHTML;
+
+  // Output the content
+  console.log(formControlContent);
+</script>
+</body>
+
+</html>
+
+  <!-- Interested in More Information Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact Us</h1><br>
+    <p>Please do not hesitate to contact us with any questions you may have about any animal.  </p>
+    <p class="w3-text-blue-grey w3-large"><b>Pima Animal Care Center</b></p>
+    <p class="w3-text-blue-grey w2-large"><b>4000 N Silverbell Rd, Tucson, AZ 85745</b></p>
+    <p>You can also contact us by phone (520) 724-5900 or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Phone Number" required name="Phone Number"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Question/Comment" required name="Question/Comment"></p>
+        	<a href="./thank-you.html">
+		<text="submit">
+		Submit
+		</a>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Adopt from your local shelter :)</a></p>
+</footer>
+
+</body>
+</html>
